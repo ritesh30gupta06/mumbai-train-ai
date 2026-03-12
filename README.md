@@ -66,4 +66,3 @@ http://127.0.0.1:5000
 
 ## 👨‍💻 Author
 Ritesh
->>>>>>> ae4c771eaaee3f4b2a8ac2298bdcc037aa3d764c
