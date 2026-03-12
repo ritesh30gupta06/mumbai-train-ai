@@ -1,44 +1,60 @@
-# AI-Based Mumbai Local Train Crowd & Delay Predictor
+# 🚆 AI-Based Mumbai Local Train Crowd Predictor
 
-This project predicts the crowd density in Mumbai local trains using Machine Learning.
+## 📌 Project Overview
+This project predicts the crowd density in Mumbai local trains using a machine learning model.
 
-## Tech Stack
+The model analyzes travel patterns such as:
+- Hour of the day
+- Day of the week
+- Weekend indicator
+- Holiday indicator
+
+Based on these inputs, the system predicts whether the train will be:
+- Low crowd
+- Medium crowd
+- High crowd
+
+## 🧠 Technologies Used
 - Python
 - Pandas
 - NumPy
 - Scikit-learn
 - Flask
 
-## Features
-- Predict crowd level (Low / Medium / High)
-- Based on time, weekday, and holidays
-- Simple web interface
+## ⚙️ Features
+- Machine Learning based prediction
+- Web interface for user input
+- Real-time crowd level prediction
+- Simple and lightweight design
 
-## Project Structure
+## 📂 Project Structure
 mumbai-train-ai
 │
 ├── data
+│   └── train_data.csv
 ├── model
+│   └── train_model.py
 ├── templates
+│   └── index.html
 ├── app.py
 ├── model.pkl
-├── requirements.txt
-└── README.md
+└── requirements.txt
+## 🚀 How to Run
 
-## How to Run
+1. Install dependencies
 
-Install libraries
+pip install flask pandas numpy scikit-learn
 
-pip install -r requirements.txt
-
-Train the model
+2. Train the model
 
 python model/train_model.py
 
-Run the web app
+3. Run the web application
 
 python app.py
 
-Open browser
-
+Then open:
 http://127.0.0.1:5000
+
+## 👨‍💻 Author
+Ritesh
