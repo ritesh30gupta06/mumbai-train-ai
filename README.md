@@ -53,14 +53,14 @@ python model/train_model.py
 
 python app.py
 
-<<<<<<< HEAD
-Open in browser:
+Open browser
+
 http://127.0.0.1:5000
 
 ## Project Screenshot
 
 ![Project UI](images/project-ui.png)
-=======
+
 Then open:
 http://127.0.0.1:5000
 
